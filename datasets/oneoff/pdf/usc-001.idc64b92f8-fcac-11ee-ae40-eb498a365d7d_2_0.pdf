@@ -1,6 +1,5 @@
-<html>
-<head><title>301 Moved Permanently</title></head>
-<body>
-<center><h1>301 Moved Permanently</h1></center>
-</body>
-</html>
+<!doctype html>
+<html lang=en>
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
