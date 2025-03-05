@@ -1,4 +1,64 @@
 # sent_id = usc-060.id3a278532-3222-11ef-bd6b-a695c622ffb7_1_0
 # text = A budget request for the anticipated costs of fuel may not take into account the availability of funds reserved under paragraph (1).
 # sent = a budget request for the anticipated costs of fuel may not take into account the availability of funds reserved under paragraph 1
-# tree_by = NOT_ASSIGNED (YYYY-MM-DD)
+# tree_by = bwaldon (YYYY-MM-DD)
+(Clause
+    :Subj (NP
+        :Det (DP
+            :Head (D :t "a"))
+        :Head (Nom
+            :Head (N :t "budget")
+            :Mod (Clause
+                :Head (VP
+                    :Head (V :t "request")
+                    :Comp (PP
+                        :Head (P :t "for")
+                        :Obj (NP
+                            :Det (DP
+                                :Head (D :t "the"))
+                            :Head (Nom
+                                :Mod (AdjP
+                                    :Head (Adj :t "anticipated"))
+                                :Head (Nom
+                                    :Head (N :t "costs")
+                                    :Comp (PP
+                                        :Head (P :t "of")
+                                        :Obj (NP
+                                            :Head (Nom
+                                                :Head (N :t "fuel"))))))))))))
+    :Head (VP
+        :Head (VP
+            :Head (V_aux :t "may")
+            :Mod (AdvP
+                :Head (Adv :t "not")))
+        :Comp (Clause
+            :Head (VP
+                :Head (V :t "take")
+                :Comp (PP
+                    :Head (P :t "into")
+                    :Obj (Coordination
+                        :Coordinate (NP
+                            :Head (Nom
+                                :Head (N :t "account")))
+                        :Coordinate (NP
+                            :Det (DP
+                                :Head (D :t "the"))
+                            :Head (Nom
+                                :Head (N :t "availability")
+                                :Comp (PP
+                                    :Head (P :t "of")
+                                    :Obj (NP
+                                        :Head (Nom
+                                            :Head (N :t "funds")
+                                            :Mod (Clause
+                                                :Head (VP
+                                                    :Head (V :t "reserved")
+                                                    :Mod (PP
+                                                        :Head (P :t "under")
+                                                        :Obj (NP
+                                                            :Head (Nom
+                                                                :Head (N :t "paragraph")
+                                                                :Comp (PP
+                                                                    :Obj (NP
+                                                                        :Det (DP
+                                                                            :Head (D :p "(" :t "1" :p ")" :p "."))))))))))))))))))))
