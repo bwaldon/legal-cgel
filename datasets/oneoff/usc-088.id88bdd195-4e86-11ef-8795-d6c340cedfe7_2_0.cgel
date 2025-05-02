@@ -2,3 +2,51 @@
 # text = The term does not include a medical device that is surgically implanted, or the replacement of such device.
 # sent = the term does not include a medical device that is surgically implanted or the replacement of such device
 # tree_by = NOT_ASSIGNED (YYYY-MM-DD)
+(Clause
+    :Subj (NP
+        :Det (DP
+            :Head (D :t "the"))
+        :Head (Nom
+            :Head (N :t "term")))
+    :Head (VP
+        :Head (VP
+            :Head (V_aux :t "does")
+            :Mod (AdvP
+                :Head (Adv :t "not")))
+        :Comp (Clause
+            :Head (VP
+                :Head (V :t "include")
+                :Obj (Coordination
+                    :Coordinate (NP
+                        :Det (DP
+                            :Head (D :t "a"))
+                        :Head (Nom
+                            :Head (Nom
+                                :Mod (AdjP
+                                    :Head (Adj :t "medical"))
+                                :Head (N :t "device"))
+                            :Mod (Clause
+                                :Head (VP
+                                    :Marker (Sdr :t "that")
+                                    :Head (VP
+                                        :Head (VP
+                                            :Head (V_aux :t "is")
+                                            :Mod (AdvP
+                                                :Head (Adv :t "surgically")))
+                                        :Comp (Clause
+                                            :Head (VP
+                                                :Head (V :t "implanted" :p ","))))))))
+                    :Coordinate (NP
+                        :Marker (Coordinator :t "or")
+                        :Head (NP
+                            :Det (DP
+                                :Head (D :t "the"))
+                            :Head (Nom
+                                :Head (N :t "replacement")
+                                :Comp (PP
+                                    :Head (P :t "of")
+                                    :Obj (NP
+                                        :Det (DP
+                                            :Head (D :t "such"))
+                                        :Head (Nom
+                                            :Head (N :t "device" :p "."))))))))))))
