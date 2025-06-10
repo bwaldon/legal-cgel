@@ -1,4 +1,78 @@
 # sent_id = usc-0100.idedeb834f-f599-11ee-bdac-93aa70de1141_2_0
 # text = Data collected to implement the tribal transportation program shall be in accordance with the Indian Self-Determination and Education Assistance Act (25 U.S.C. 5301 et seq.).
-# sent = data collected to implement the tribal transportation program shall be in accordance with the Indian SelfDetermination and Education Assistance Act 25 USC 5301 et seq
-# tree_by = NOT_ASSIGNED (YYYY-MM-DD)
+# sent = data collected to implement the tribal transportation program shall be in accordance with the indian self determination and education assistance act 25 u s c 5301 et seq
+# tree_by = bwaldon (2025-06-10)
+(NP
+    :Head (Nom
+        :Head (N :t "data")
+        :Mod (Clause
+            :Head (VP
+                :Head (V :t "collected")
+                :Mod (PP
+                    :Head (P :t "to")
+                    :Obj (NP
+                        :Head (Nom
+                            :Head (N :t "implement")
+                            :Comp (Clause
+                                :Subj (NP
+                                    :Det (DP
+                                        :Head (D :t "the"))
+                                    :Head (Nom
+                                        :Mod (AdjP
+                                            :Head (Adj :t "tribal"))
+                                        :Head (Nom
+                                            :Mod (Nom
+                                                :Head (N :t "transportation"))
+                                            :Head (N :t "program"))))
+                                :Head (VP
+                                    :Head (V_aux :t "shall")
+                                    :Comp (Clause
+                                        :Head (VP
+                                            :Head (V_aux :t "be")
+                                            :Comp (PP
+                                                :Head (P :t "in")
+                                                :Obj (NP
+                                                    :Head (Nom
+                                                        :Head (N :t "accordance")
+                                                        :Comp (PP
+                                                            :Head (P :t "with")
+                                                            :Obj (NP
+                                                                :Det (DP
+                                                                    :Head (D :t "the"))
+                                                                :Head (Nom
+                                                                    :Mod (Nom
+                                                                        :Head (N :t "indian"))
+                                                                    :Head (N :t "self" :p "-")))))))))))))))))
+    :Supplement (NP
+        :Head (Nom
+            :Mod (Coordination
+                :Coordinate (Nom
+                    :Head (N :t "determination"))
+                :Coordinate (Nom
+                    :Marker (Coordinator :t "and")
+                    :Head (Nom
+                        :Head (N :t "education"))))
+            :Head (Nom
+                :Head (N :t "assistance")
+                :Comp (PP
+                    :Head (P :t "act")
+                    :Obj (NP
+                        :Det (DP
+                            :Head (D
+                                :Flat (D :p "(" :t "25")))
+                        :Head (Nom
+                            :Head (N :t "u" :p ".")))))))
+    :Supplement (NP
+        :Head (Nom
+            :Head (N :t "s" :p "."))
+        :Supplement (NP
+            :Head (Nom
+                :Head (N :t "c" :p "."))))
+    :Supplement (NP
+        :Head (Nom
+            :Mod (Nom
+                :Head (N :t "5301"))
+            :Head (N :t "et"))
+        :Supplement (NP
+            :Head (Nom
+                :Head (N :t "seq" :p "." :p ")" :p ".")))))
